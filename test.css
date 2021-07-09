@@ -7,6 +7,7 @@
 body{
     width:100vw;
 }
+
 html{
     font-size: 62.5%;;
 }
@@ -63,7 +64,7 @@ html{
     /* border: 1px dotted red; */
     width:100vw;
     height:100%;
-    margin-top:15%;
+    margin-top:18%;
 }
 .box .front-face .icon {
     height: 0rem;
@@ -148,7 +149,7 @@ html{
         font-size: 4rem;
         position: relative;
         margin-left: 42%;
-        margin-bottom:3rem;
+        margin-bottom:-4rem;
       }
       h1::after {
         content: "";
@@ -188,6 +189,8 @@ html{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 4rem;
+
       }
       .sabkux {
         width: 100%;
@@ -210,9 +213,9 @@ html{
       }
       .heading h2 {
         font-weight: 600;
-        font-size: 3rem;
+        font-size: 4rem;
         position: relative;
-        top: 4vh;
+        top: 8vh;
         left: 0vw;
         margin-top: 0rem;
       }
@@ -372,10 +375,25 @@ html{
         }
         .sabkux{
           padding:0 6rem;
+          margin-top: 6rem;
         }
         .testimonials{
           height:78vh;
         }
+        .main{
+          height:160%;
+        }
+        .landing img{
+          top:0%;
+          left:8%;
+          transform:scale(0.82);
+        }
+        .mid-section{
+          margin-top:12%;
+        }
+        .heading h2 {
+          margin-top: -2rem;
+      }
       }
        @media only screen and (max-width: 769px) {
         html {
@@ -388,6 +406,7 @@ html{
         }
         .testimonials {
           height: 64vh;
+          margin-top: 0rem;
       }
         .sabkux {
           padding:0rem 8rem;
@@ -403,8 +422,8 @@ html{
         height: 100%;
         position: absolute;
         top: -2%;
-        left: 16%;
-        transform: scale(0.88);
+        left: 10%;
+        transform: scale(0.78);
         opacity: 1;
     }
     .main{
@@ -422,14 +441,39 @@ html{
           flex-direction: column;
           align-items: center;
           justify-content:unset;
-          transform:scale(0.89)
+          transform:scale(0.89);
+          margin-top:0rem;
         }
         .image{
           width:40rem;
           height:40rem;
           transform:scale(.80)
         }
+        .main{
+          height:100%;
+        }
+        .mid-section{
+          margin-top:4%;
       }
+      h1{
+        margin-left: 35%;
+      }
+      .wrapper {
+        margin: 10.0rem 2rem auto;
+    }
+    .heading h2 {
+      margin-bottom: 6rem;
+      font-size: 4rem;
+    }
+    .testimonials {
+      height: 64vh;
+      margin-top: 2rem;
+  }
+  
+  
+  }
+
+
        @media only screen and (max-width: 376px) {
         html {
           font-size: 30%;
@@ -452,7 +496,26 @@ html{
         .sabkux{
           padding:0rem 4rem;
         }
+        .wrapper .box{
+          width:56rem;
+        }
+        .wrapper {
+          margin: 10.0rem 4rem auto;
       }
+      .main {
+        height: 74%;
+      }
+    .mid-section {
+      margin-top: -8%;
+      }
+      .testimonials{
+        margin-top: -4rem;
+      }
+      .heading h2 {
+        margin-bottom: 8rem;
+        font-size: 4rem;
+    }
+}
        @media only screen and (max-width: 321px) {
         html {
           font-size: 25%;
@@ -462,6 +525,9 @@ html{
           height:35rem;
           transform:scale(.80)
         }
+        .wrapper {
+          margin: 10.0rem 6rem auto;
+      }
       }
        
 
